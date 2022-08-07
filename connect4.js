@@ -118,8 +118,8 @@ function findSpotForCol(x) {
 
 function endGame(msg) {
   // pop up alert message
-  alert(msg)
-}
+  alert(msg);
+};
 
 /** checkForWin: check board cell-by-cell for "does a win start here?" */
 
