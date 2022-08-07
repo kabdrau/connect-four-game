@@ -12,9 +12,8 @@ h1 {
 #game {
   position: relative;
   background-color: aliceblue;
-  width: 395px; /* Any width */
-  height: 400px; /* Any height */
-  margin-left: auto;
+  width: 395px;
+  height: 400px;
   margin-right: auto;
 }
 
