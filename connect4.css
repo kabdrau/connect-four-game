@@ -1,5 +1,23 @@
 /* game board table */
 
+body {
+  background-color: #92A8D1;
+}
+
+h1 {
+  font-family: 'Courier New', monospace;
+  text-align: center;
+}
+
+#game {
+  position: relative;
+  background-color: aliceblue;
+  width: 395px; /* Any width */
+  height: 400px; /* Any height */
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #board td {
   width: 50px;
   height: 50px;
@@ -57,7 +75,7 @@
 
 @keyframes bounce {
   0% {
-    transform: translateY(-400px);
+    transform: translateY(-500px);
   }
   100% {
     transform: translateY(0px);
